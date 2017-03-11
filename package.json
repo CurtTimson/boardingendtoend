@@ -1,0 +1,19 @@
+{
+  "name": "boardingendtoend",
+  "version": "1.0.0",
+  "description": "Boarding End to End 2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CurtTimson/boardingendtoend.git"
+  },
+  "author": "Curtis Timson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CurtTimson/boardingendtoend/issues"
+  },
+  "homepage": "https://github.com/CurtTimson/boardingendtoend#readme"
+}

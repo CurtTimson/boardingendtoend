@@ -1,6 +1,6 @@
 {
   "name": "boardingendtoend",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Boarding End to End 2018",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,8 @@
   "homepage": "https://github.com/CurtTimson/boardingendtoend#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-gh-pages": "^0.5.4"
+    "gulp-bump": "^2.7.0",
+    "gulp-gh-pages": "^0.5.4",
+    "require-dir": "^0.3.1"
   }
 }

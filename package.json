@@ -1,6 +1,6 @@
 {
   "name": "boardingendtoend",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Boarding End to End 2018",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,7 @@
     "gulp": "^3.9.1",
     "gulp-bump": "^2.7.0",
     "gulp-gh-pages": "^0.5.4",
-    "require-dir": "^0.3.1"
+    "require-dir": "^0.3.1",
+    "gulp-less": "^3.3.0"
   }
 }

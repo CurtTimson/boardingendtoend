@@ -1,6 +1,10 @@
 body {
   margin: 0;
 }
+.holding-page {
+  max-width: 768px;
+  margin: 0 auto;
+}
 .holding-page .splash-img {
   padding-top: 100px;
 }

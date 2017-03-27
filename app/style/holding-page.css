@@ -1,6 +1,23 @@
 body {
   margin: 0;
 }
-.holding-page img {
+.holding-page .splash-img {
+  padding-top: 80px;
+}
+.holding-page .splash-img img {
   max-width: 100%;
+}
+.holding-page .social-links {
+  padding-top: 60px;
+}
+.holding-page .social-links ul {
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+.holding-page .social-links ul li {
+  list-style: none;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
 }

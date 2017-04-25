@@ -2,9 +2,10 @@ var gulp = require("gulp");
 var runSequence = require('run-sequence');
 var rename = require('gulp-rename');
 
+var baseDir = "holding-page";
 
 gulp.task('build-files', function(){
-  return gulp.src('./app/**/**')
+  return gulp.src('./' + baseDir + '/**/**')
     .pipe(gulp.dest('dist'));
 });
 

@@ -3,7 +3,8 @@ var gulp = require("gulp");
 var less = require("gulp-less");
 var browserSync = require('browser-sync').create();
 
-var lessPath = 'app/style/**/*.less';
+var baseDir = "holding-page";
+var lessPath = baseDir + '/style/**/*.less';
 
 gulp.task('dev-watch', function(){
 
@@ -11,7 +12,7 @@ gulp.task('dev-watch', function(){
 
   browserSync.init({
     server: {
-      baseDir: 'app'
+      baseDir: baseDir
     }
   });
 });
@@ -19,5 +20,5 @@ gulp.task('dev-watch', function(){
 gulp.task('less', function(){
   return gulp.src(lessPath)
     .pipe(less())
-    .pipe(gulp.dest('app/style'))
+    .pipe(gulp.dest(baseDir + '/style'))
 });

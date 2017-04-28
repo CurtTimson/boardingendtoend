@@ -6,9 +6,46 @@ header{
   position:relative;
 
   .nav-cta{
-    width:50px;
+    width:42px;
     position: absolute;
-    left:10px;
+    left:20px;
+    top:16px;
+    height:28px;
+
+    .burger-menu,
+    .burger-menu::before,
+    .burger-menu::after{
+      background-color: #fff;
+      height:3px;
+      width:34px;
+    }
+
+    .burger-menu{
+
+      border:0;
+      position: relative;
+      padding:0;
+
+      &::before,
+      &::after{
+        position: absolute;
+        border-radius: 1px;
+        content: '';
+        display: inline-block;
+        left: 0;
+      }
+
+      @line-gap:10px;
+
+      &::before{
+        top:@line-gap*-1;;
+      }
+      &::after{
+        top:@line-gap;
+      }
+
+    }
+
   }
 
   .logo{

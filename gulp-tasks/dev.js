@@ -16,6 +16,8 @@ gulp.task('dev-watch', function(){
       baseDir: baseDir
     }
   });
+
+  gulp.watch('app/**/*').on('change', browserSync.reload);
 });
 
 gulp.task('less', function(){

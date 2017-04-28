@@ -1,0 +1,56 @@
+header {
+  background-color: #0F1626;
+  padding: 8px 0;
+  position: relative;
+}
+header .nav-cta {
+  width: 42px;
+  position: absolute;
+  left: 20px;
+  top: 16px;
+  height: 28px;
+}
+header .nav-cta .burger-menu,
+header .nav-cta .burger-menu::before,
+header .nav-cta .burger-menu::after {
+  background-color: #fff;
+  height: 3px;
+  width: 34px;
+}
+header .nav-cta .burger-menu {
+  border: 0;
+  position: relative;
+  padding: 0;
+}
+header .nav-cta .burger-menu::before,
+header .nav-cta .burger-menu::after {
+  position: absolute;
+  border-radius: 1px;
+  content: '';
+  display: inline-block;
+  left: 0;
+}
+header .nav-cta .burger-menu::before {
+  top: -10px;
+}
+header .nav-cta .burger-menu::after {
+  top: 10px;
+}
+header .logo {
+  width: 160px;
+  margin: 0 auto;
+}
+header .logo img {
+  width: 100%;
+}
+header .donate-cta {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 1em;
+  background-color: #FF533D;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  padding: 4px 10px;
+}

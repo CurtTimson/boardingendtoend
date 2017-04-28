@@ -8,6 +8,7 @@ var lessPath = baseDir + '/style/**/*.less';
 
 gulp.task('dev-watch', function(){
 
+  console.log("Watch for less files matching: " + lessPath);
   gulp.watch(lessPath, ['less']);
 
   browserSync.init({
@@ -15,6 +16,8 @@ gulp.task('dev-watch', function(){
       baseDir: baseDir
     }
   });
+
+  gulp.watch('app/**/*').on('change', browserSync.reload);
 });
 
 gulp.task('less', function(){

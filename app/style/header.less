@@ -1,0 +1,75 @@
+@import (reference) 'vars.less';
+
+header{
+  background-color:@color-header-bg;
+  padding:8px 0;
+  position:relative;
+
+  .nav-cta{
+    width:42px;
+    position: absolute;
+    left:20px;
+    top:16px;
+    height:28px;
+
+    .burger-menu,
+    .burger-menu::before,
+    .burger-menu::after{
+      background-color: #fff;
+      height:3px;
+      width:34px;
+    }
+
+    .burger-menu{
+
+      border:0;
+      position: relative;
+      padding:0;
+
+      &::before,
+      &::after{
+        position: absolute;
+        border-radius: 1px;
+        content: '';
+        display: inline-block;
+        left: 0;
+      }
+
+      @line-gap:10px;
+
+      &::before{
+        top:@line-gap*-1;;
+      }
+      &::after{
+        top:@line-gap;
+      }
+
+    }
+
+  }
+
+  .logo{
+
+    width:160px;
+    margin:0 auto;
+
+    img{
+      width:100%;
+    }
+  }
+
+  .donate-cta{
+    position: absolute;
+    right:20px;
+    top:20px;
+    font-size:1em;
+
+    background-color:@color-donate-bg;
+    color:#fff;
+
+
+    border:0;
+    border-radius: 4px;
+    padding:4px 10px;
+  }
+}

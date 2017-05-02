@@ -7,10 +7,10 @@ header{
 
   .nav-cta{
     width:42px;
-    position: absolute;
-    left:20px;
-    top:16px;
+    display: inline-block;
+    float: left;
     height:28px;
+    padding-top: 12px;
 
     .burger-menu,
     .burger-menu::before,
@@ -52,6 +52,7 @@ header{
 
     width:160px;
     margin:0 auto;
+    overflow: hidden;
 
     img{
       width:100%;
@@ -59,10 +60,14 @@ header{
   }
 
   .donate-cta{
-    position: absolute;
-    right:20px;
-    top:20px;
-    font-size:1em;
+    display: inline-block;
+    float: right;
+    font-size:1.6em;
+    padding: 6px 18px;
+    font-family:@font-primary;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top:4px;
 
     background-color:@color-donate-bg;
     color:#fff;

@@ -5,10 +5,10 @@ header {
 }
 header .nav-cta {
   width: 42px;
-  position: absolute;
-  left: 20px;
-  top: 16px;
+  display: inline-block;
+  float: left;
   height: 28px;
+  padding-top: 12px;
 }
 header .nav-cta .burger-menu,
 header .nav-cta .burger-menu::before,
@@ -39,15 +39,20 @@ header .nav-cta .burger-menu::after {
 header .logo {
   width: 160px;
   margin: 0 auto;
+  overflow: hidden;
 }
 header .logo img {
   width: 100%;
 }
 header .donate-cta {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  font-size: 1em;
+  display: inline-block;
+  float: right;
+  font-size: 1.6em;
+  padding: 6px 18px;
+  font-family: 'Titillium Web', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 4px;
   background-color: #FF533D;
   color: #fff;
   border: 0;

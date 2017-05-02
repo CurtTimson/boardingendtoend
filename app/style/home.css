@@ -28,6 +28,9 @@ body {
   text-align: right;
   width: 20%;
 }
+.home-banner .inner .text-countdown .text strong {
+  display: block;
+}
 .home-banner .inner .text-countdown .countdown {
   display: inline-block;
   border-left: 1px solid #fff;
@@ -46,4 +49,21 @@ body {
 .home-banner .inner .text-countdown .countdown ul li .counter {
   font-size: 5em;
   font-family: 'Titillium Web', sans-serif;
+}
+@media only screen and (max-width: 768px) {
+  .home-banner .inner .text-countdown .text,
+  .home-banner .inner .text-countdown .countdown {
+    display: block;
+    width: 100%;
+  }
+  .home-banner .inner .text-countdown .text {
+    text-align: center;
+  }
+  .home-banner .inner .text-countdown .text strong {
+    display: inline;
+  }
+  .home-banner .inner .text-countdown .countdown {
+    border: 0;
+    padding: 0;
+  }
 }

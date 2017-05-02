@@ -30,8 +30,11 @@ body{
         line-height: 26px;
         text-align: right;
         width:20%;
-      }
 
+        strong{
+          display: block;
+        }
+      }
 
       .countdown{
         display:inline-block;
@@ -54,6 +57,30 @@ body{
             }
           }
         }
+      }
+
+      @media only screen and (max-width: @mobile-breakpoint-width) {
+
+        .text,
+        .countdown{
+          display: block;
+          width:100%;
+        }
+
+        .text{
+          text-align: center;
+
+          strong{
+            display: inline;
+          }
+        }
+
+        .countdown{
+          border:0;
+          padding:0;
+        }
+
+
       }
     }
 

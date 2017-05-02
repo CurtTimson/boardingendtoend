@@ -1,0 +1,50 @@
+@import (reference) "vars.less";
+
+body{
+  height:10000px;
+}
+
+.home-banner{
+  background-image: url(../images/banner.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .inner{
+    background-color:fade(@color-donate-bg, 50%);
+    padding:5px 0;
+
+    .text-countdown{
+      background-color:fade(@color-donate-bg, 50%);
+      color:#fff;
+      width:80%;
+      margin:0 auto;
+      padding:10px 0;
+
+      .text{
+        display:inline-block;
+        padding:0 20px;
+        font-family: @font-primary;
+        font-size:2em;
+        line-height: 26px;
+        text-align: right;
+      }
+
+
+      .countdown{
+        display:inline-block;
+        border-left:1px solid #fff;
+        padding-left: 20px;
+
+        ul{
+          margin:0;
+        }
+      }
+    }
+
+
+
+
+  }
+}

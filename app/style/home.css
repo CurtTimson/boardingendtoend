@@ -9,11 +9,11 @@ body {
   background-size: cover;
 }
 .home-banner .inner {
-  background-color: rgba(255, 83, 61, 0.5);
+  background-color: rgba(163, 169, 120, 0.5);
   padding: 5px 0;
 }
 .home-banner .inner .text-countdown {
-  background-color: rgba(255, 83, 61, 0.5);
+  background-color: rgba(163, 169, 120, 0.5);
   color: #fff;
   width: 80%;
   margin: 0 auto;

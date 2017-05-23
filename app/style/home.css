@@ -14,7 +14,9 @@
 }
 .grid .grid-item .item {
   margin: 5px;
-  padding: 5px;
   background: red;
   margin-top: 10px;
+}
+.grid .grid-item .item img {
+  max-width: 100%;
 }

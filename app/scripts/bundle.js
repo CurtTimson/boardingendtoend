@@ -2,6 +2,10 @@
 var $ = require("jquery");
 var masonry = require('masonry-layout');
 
+//Expose to global
+window.$ = $;
+window.masonry = masonry;
+
 },{"jquery":6,"masonry-layout":7}],2:[function(require,module,exports){
 /**
  * matchesSelector v2.0.2

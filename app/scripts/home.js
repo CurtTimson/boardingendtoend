@@ -3,7 +3,7 @@ be2e.home = function(){
   var init = function(){
 
     var msnry = new masonry( '.grid', {
-      columnWidth: '.grid-item',
+      columnWidth: '.grid-sizer',
       itemSelector: '.grid-item',
       percentPosition: true
     });

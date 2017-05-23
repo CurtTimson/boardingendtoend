@@ -1,0 +1,22 @@
+.grid {
+  margin: 0;
+  padding: 0;
+}
+.grid .grid-item,
+.grid .grid-sizer {
+  width: 33%;
+}
+@media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .grid .grid-item,
+  .grid .grid-sizer {
+    width: 100%;
+  }
+}
+.grid .grid-item .item {
+  margin: 5px;
+  background: #FF533D;
+  margin-top: 10px;
+}
+.grid .grid-item .item img {
+  max-width: 100%;
+}

@@ -1,1 +1,35 @@
 @import (reference) "vars.less";
+
+.grid{
+  margin:0;
+  padding:0;
+
+  .grid-item,
+  .grid-sizer{
+    width: 33%;
+
+    @media only screen
+      and (max-device-width: 480px)
+      and (-webkit-min-device-pixel-ratio: 2) {
+        width:100%;
+    }
+  }
+
+
+  .grid-item{
+    .item{
+      margin:5px;
+      background:@color-secondary;
+      margin-top:10px;
+
+
+      img{
+        max-width: 100%;
+      }
+
+
+
+    }
+  }
+
+}

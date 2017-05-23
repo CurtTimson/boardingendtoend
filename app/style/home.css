@@ -5,8 +5,6 @@
 .grid .grid-item,
 .grid .grid-sizer {
   width: 33%;
-  list-style-type: none;
-  display: inline-block;
 }
 .grid .grid-item .item {
   margin: 5px;

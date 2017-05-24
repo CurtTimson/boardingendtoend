@@ -20,3 +20,7 @@
 .grid .grid-item .item img {
   max-width: 100%;
 }
+.grid .grid-item .item p {
+  padding: 10px;
+  margin: 0;
+}

@@ -1,0 +1,4 @@
+languageCode = "en-us"
+title = "Boarding End to End 2018"
+baseURL = "http://example.org/"
+theme = "dopetrope"

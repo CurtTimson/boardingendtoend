@@ -1,7 +1,7 @@
 <!-- Banner -->
-<section id="banner">
+<section id="banner" ng-app="app" ng-controller="countdown">
     <header>
-        <h2>99<span>days</span> 99<span>hrs</span> 99<span>mins</span> 99<span>secs</span> </h2>
+        <h2>{{"{{"}} countdown.days {{"}}"}}<span>days</span> {{"{{"}} countdown.hours {{"}}"}}<span>hrs</span> {{"{{"}} countdown.minutes {{"}}"}}<span>mins</span> {{"{{"}} countdown.seconds {{"}}"}}<span>secs</span> </h2>
         <p>...and counting!</p>
     </header>
 </section>

@@ -1,4 +1,4 @@
 languageCode = "en-us"
 title = "Boarding End to End 2018"
-baseURL = "http://localhost:1313/"
+baseURL = "https://curttimson.github.io/be2e-staging/"
 theme = "dopetrope"

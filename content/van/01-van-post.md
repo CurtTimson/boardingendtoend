@@ -1,8 +1,8 @@
 +++
 description = "First Van Post"
 date = "2018-01-31T00:00:00"
-thumbnail = "images/pic08.jpg"
-image = "images/pic01.jpg"
+thumbnail = "images/van.jpeg"
+image = "images/van.jpeg"
 title = "First Van Post"
 slug = "first-van-post"
 author = "John Smith"

@@ -14,4 +14,5 @@ $ gulp copy-npm-files
 ```
 $ hugo --config config-prod.toml
 $ gulp deploy
+$ hugo server
 ```

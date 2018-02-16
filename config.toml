@@ -8,19 +8,22 @@ theme = "dopetrope"
     subtitleline2 = "A responsive template by HTML5 UP"
 
 [params.intro]
-    title1 = "Ipsum consequat"
+    icon1 = "fa-road"
+    title1 = "John O'Groats to Lands End"
     description1 = "Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus."
 
-    title2 = "Magna etiam dolor"
+    icon2 = "fa-calendar"
+    title2 = "7th August 2018"
     description2 = "Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus."
 
-    title3 = "Tempus adipiscing"
-    description3 = "Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus."
+    icon3 = "fa-heart"
+    title3 = "Myton Hospice"
+    description3 = "Nisla amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus."
 
-    buttonlink1 = "#"
-    buttontext1 = "Get Started"
+    buttonlink1 = "http://www.virginmoneygiving.com/boardingendtoend"
+    buttontext1 = "Donate"
 
-    buttonlink2 = "#"
+    buttonlink2 = "https://www.facebook.com/boardingendtoend"
     buttontext2 = "Learn More"
 
 [params.footer]

@@ -13,6 +13,10 @@ import inject from "gulp-inject";
 import replace from "gulp-replace";
 import cssnano from "cssnano";
 
+import requireDir from "require-dir";
+
+requireDir('./gulp-tasks');
+
 const browserSync = BrowserSync.create();
 const hugoBin = `./bin/hugo.${process.platform === "win32" ? "exe" : process.platform}`;
 const defaultArgs = ["-d", "../dist", "-s", "site"];

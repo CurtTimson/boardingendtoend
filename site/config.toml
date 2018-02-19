@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Boarding End to End 2018"
-baseURL = "https://curttimson.github.io/be2e-staging/"
+baseURL = "https://be2e.netlify.com/"
 theme = "dopetrope"
 
 [params]

@@ -1,0 +1,3 @@
+[submodule "site/themes/dopetrope"]
+	path = site/themes/dopetrope
+	url = https://github.com/curttimson/hugo-theme-dopetrope

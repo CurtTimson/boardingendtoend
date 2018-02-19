@@ -1,53 +1,28 @@
 {
-  "_from": "git+ssh://git@github.com/curttimson/hugo-theme-dopetrope.git#3.2.0",
-  "_id": "hugo-theme-dopetrope@3.2.0",
-  "_inBundle": false,
-  "_location": "/hugo-theme-dopetrope",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "git",
-    "raw": "hugo-theme-dopetrope@git+ssh://git@github.com/curttimson/hugo-theme-dopetrope.git#3.2.0",
-    "name": "hugo-theme-dopetrope",
-    "escapedName": "hugo-theme-dopetrope",
-    "rawSpec": "git+ssh://git@github.com/curttimson/hugo-theme-dopetrope.git#3.2.0",
-    "saveSpec": "git+ssh://git@github.com/curttimson/hugo-theme-dopetrope.git#3.2.0",
-    "fetchSpec": "ssh://git@github.com/curttimson/hugo-theme-dopetrope.git",
-    "gitCommittish": "3.2.0"
-  },
-  "_requiredBy": [
-    "#DEV:/"
-  ],
-  "_resolved": "git+ssh://git@github.com/curttimson/hugo-theme-dopetrope.git#3c3c60ef6d0e83e11265d44457fd815ba7594d9e",
-  "_spec": "hugo-theme-dopetrope@git+ssh://git@github.com/curttimson/hugo-theme-dopetrope.git#3.2.0",
-  "_where": "/Users/curtistimson/Documents/GitHub/boardingendtoend",
-  "author": {
-    "name": "Curtis Timson"
-  },
-  "bugs": {
-    "url": "https://github.com/curttimson/hugo-theme-dopetrope/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
+  "name": "hugo-theme-dopetrope",
+  "version": "3.2.1",
   "description": "Hugo Theme Dopetrope",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-gh-pages": "^0.5.4"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/curttimson/hugo-theme-dopetrope#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curttimson/hugo-theme-dopetrope.git"
+  },
   "keywords": [
     "hugo",
     "hugo-theme",
     "dopetrope"
   ],
+  "author": "Curtis Timson",
   "license": "Creative Commons Attribution",
-  "main": "index.js",
-  "name": "hugo-theme-dopetrope",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/curttimson/hugo-theme-dopetrope.git"
+  "bugs": {
+    "url": "https://github.com/curttimson/hugo-theme-dopetrope/issues"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "3.2.0"
+  "homepage": "https://github.com/curttimson/hugo-theme-dopetrope#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4"
+  }
 }

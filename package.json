@@ -4,7 +4,12 @@
   "description": "Boarding End to End 2018",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "hugo": "gulp hugo",
+    "webpack": "gulp webpack",
+    "build": "gulp build",
+    "build-preview": "gulp build-preview",
+    "start": "gulp server",
+    "lint": "eslint src"
   },
   "repository": {
     "type": "git",

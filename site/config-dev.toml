@@ -42,6 +42,11 @@ theme = "dopetrope"
 
     title5 = "Vitae tempor lorem"
 
+[params.portfolio]
+    title = "The Vlog"
+    foldername = "vlog"
+    findoutmoretext = "Find out more"
+
 [params.blog]
     title = "The Van"
     viewalltext = "View All"

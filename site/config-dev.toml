@@ -76,12 +76,12 @@ theme = "dopetrope"
 [params.sidebar]
     position = "right"
 
-    image1 = "images/pic09.jpg"
-    imagelink1 = "#"
-    title1 = "Sed etiam lorem nulla"
-    description1 = "Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore."
-    buttonlink1 = "#"
-    buttontext1 = "Magna sed taciti"
+    image1 = "images/team-sidebar.jpeg"
+    imagelink1 = "/the-team"
+    title1 = "The Team"
+    description1 = "Find out more about the team involved"
+    buttonlink1 = "/the-team"
+    buttontext1 = "Find out more"
 
     title2 = "Feugiat consequat"
     description2 = "Veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat sed lorem consequat feugiat lorem dolore."

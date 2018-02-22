@@ -8,11 +8,3 @@ http://boardingendtoend.com/
 $ npm i
 $ gulp copy-npm-files
 ```
-
-## Deployment
-
-```
-$ hugo --config config-prod.toml
-$ gulp deploy
-$ hugo server
-```
